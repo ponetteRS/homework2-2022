@@ -53,8 +53,10 @@ img {
     width: 350px; /* changed for autograder */
     /* centering below based on W3 schools */
     display: block;
-    margin-left: auto;
-    margin-right: auto;
+    /* margin-left: auto;
+    margin-right: auto; */
+    /* try */
+    margin: auto;
 }
 
 div {
@@ -65,6 +67,10 @@ div {
     */
     padding: 20px;
     border-width: 3px;
+    /* for border width type in all values on one line, use zero for all ones not in use */
+    /* border-width: top, right, bottom left; */
+    /* see if passes the autograder */
+    /* fix all color borders, footer and image width. see if can see images before adding to autograder */
     border-style: solid;
     border-color: #ffffff;
     min-height: 100px;
@@ -140,8 +146,10 @@ div {
     /* background: #00D800; */
     /* background: #00EB00; */
     margin-right: 50px;
+
     border-right: 10px;
     border-bottom: 3px;
+    /* try add values for everything */
 }
 
 span {
@@ -164,7 +172,10 @@ footer p {
     on the top, right, and bottom only. (No padding on the left.) */
     text-align: center;
     font-size: 20px;
+    /* add pad */
     padding-top: 10px;
     padding-right: 10px;
     padding-bottom: 10px;
+    /* might have been padding in reset */
+    padding-left: 0px;
 }
