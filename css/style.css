@@ -1,12 +1,51 @@
 body {
+    /* Default text is Verdana font with Times New Roman as a fallback option**
+    The background color is black (use hexadecimal values)
+    The foreground is white (use hexadecimal values)
+    There is a 25px margin on the top and sides.  None on the bottom.
+    */
     background: #000000;
     color: #ffffff;
     font-family: "Verdana", "Times New Roman";
     /* ^^^^ after the comma is the fall back font, ASK IF CORRECT AT OFFICE HOURS */
+    margin-top: 25px;
+    margin-right: 25px;
+    margin-left: 25px;
 }
 
 h1 {
+    /* Padding is from W3 schools */
+    /* The level 1 heading is 48px, centered, and has padding of 15px -- padding all sides?*/
     font-size: 48px;
+    text-align: center;
+    padding: 15px;
+    
+}
+
+h2 {
+    /* The level 2 heading is 32px, 
+    with grey (#808080) text-shadow property that is offset 2px horizontally and 4px vertically
+    */
+    font-size: 32px;
+    text-shadow: 2px 4px #808080  /* h-shadow v-shadow */
+}
+
+p {
+    /* Paragraphs use 24px font and have 15px padding on the bottom and left only */
+    font-size: 24px;
+    padding-bottom: 15px;
+    padding-left: 15px;
+}
+
+main {
+    /* Images match the following styles: (only one image???)
+    All images are 350px wide  (do not set a height)
+    All images are centered 
+    All images should have a white 10px dashed border
+    */
+
+    /* SOS IMAGES  */
+    /* cant edit html??? */
 }
 
 #red{
