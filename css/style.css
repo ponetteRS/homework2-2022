@@ -119,9 +119,13 @@ div {
     /* (Let's fix the color contrast here  – White on yellow is hard to read!)
     The heading and paragraph text is black (use hexadecimal values)
     The heading uses a #c7e2c7 text-shadow that is offset 2px horizontally and 4px vertically  */
-    .yellow h2 {
-        color: black;
-    }
+    
+    /* p */
+    color: #000000;
+    
+    /* h2 */
+    color: #000000;
+    text-shadow: 2px 4px #c7e2c7;
 }
 
 .green {
@@ -147,11 +151,13 @@ span {
 footer {
     /* The footer should use a gradient background that 
     starts at #000000, goes to #0000ff at 25,  #0066ff at 70, and ends back at #000000. */
+    /* ask about whether below is % and whether can just add one to the end like I did */
     background: linear-gradient(90deg, #000000 0%, #0000ff 25%, #0066ff 70%, #000000 100%);
 
-    /* does the code for the instructions below go inside the footer here for specificity */
     /* Paragraphs within the footer have centered 20px text and 10px of padding 
     on the top, right, and bottom only. (No padding on the left.) */
+    /* p */
+    /* footer; p; {text-align: center;} */
     text-align: center;
     font-size: 20px;
     padding-top: 10px;
