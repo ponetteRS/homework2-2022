@@ -1,0 +1,14 @@
+body {
+    background: #000000;
+    color: #ffffff;
+    font-family: "Verdana", "Times New Roman";
+    /* ^^^^ after the comma is the fall back font, ASK IF CORRECT AT OFFICE HOURS */
+}
+
+h1 {
+    font-size: 48px;
+}
+
+#red{
+    background: #FF0000;
+}
