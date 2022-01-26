@@ -44,10 +44,71 @@ main {
     All images should have a white 10px dashed border
     */
 
-    /* SOS IMAGES  */
-    /* cant edit html??? */
+    /* ####################### SOS IMAGES ############################### */
+                    /* cant edit html????????? */
 }
 
-#red{
+div {
+    /* IS THIS CORRECT FOR ALL DIVS???? */
+    /* All divs must:
+    be at least 100px tall (but will automatically be taller if needed)
+    have 20px padding on all sides
+    have a 3px solid white border on all sides.
+    */
+}
+
+#into {
+    /* The intro div should have a 15px border-radius (to curve the edges) and a 15px margin on the top. */
+}
+
+#red {
+    /* The red div has the following styles:
+    Background color is hexadecimal value for red
+    Text is aligned on the right side 
+    A left margin of 50px;
+    A  border of 3px on the bottom and 10px on the left;
+    */
     background: #FF0000;
+}
+
+#blue {
+    /* The blue div has the following styles
+    Background color is hex value for blue
+    Text is aligned on the left side
+    A right margin of 50px;
+    A  border of 10px on the right and 3px on the bottom;
+    */
+}
+
+#yellow {
+    /* Background color is hexadecimal value for yellow 
+    Text is aligned on the right side
+    A left margin of 50px;
+    A border of 3px on the bottom and 10px on the left;
+
+    (Let's fix the color contrast here  – White on yellow is hard to read!)
+    The heading and paragraph text is black (use hexadecimal values)
+    The heading uses a #c7e2c7 text-shadow that is offset 2px horizontally and 4px vertically */
+}
+
+#green {
+    /* The background color is hexadecimal value for green  (Use #00EB00, #008500, or #00D800) **updated
+    Text is aligned on the left side
+    A right margin of 50px;
+    A  border of 10px on the right and 3px on the bottom;
+    */
+}
+
+span {
+    /* Any span elements should be underlined, have all uppercase, and not have any text-shadow.
+ */
+}
+
+footer {
+    /* The footer should use a gradient background that 
+    starts at #000000, goes to #0000ff at 25,  #0066ff at 70, and ends back at #000000. */
+
+    /* does the code for the instructions below go inside the footer here for specificity */
+    /* Paragraphs within the footer have centered 20px text and 10px of padding 
+    on the top, right, and bottom only. (No padding on the left.) */
 }
